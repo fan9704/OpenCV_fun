@@ -27,3 +27,5 @@ for line in lines:
         draw.rectangle((x,y,x+w,y+h),outline='red')
     filename=(data[0].split('/'))[-1]
     img.save('picMark/'+filename)
+fp.close()
+print('繪製圖框結束')
